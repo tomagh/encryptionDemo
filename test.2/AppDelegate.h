@@ -10,6 +10,11 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+@property (weak) IBOutlet NSTextField *inputText;
+@property (weak) IBOutlet NSTextField *initializationVector;
+- (IBAction)onButtonClicl:(id)sender;
+
+@property (unsafe_unretained) IBOutlet NSTextView *outputTextView;
 
 @end
 

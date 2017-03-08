@@ -11,6 +11,7 @@
 		E2192F331E6D455300570BBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2192F321E6D455300570BBA /* main.m */; };
 		E2192F351E6D455300570BBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2192F341E6D455300570BBA /* Assets.xcassets */; };
 		E2192F381E6D455300570BBA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2192F361E6D455300570BBA /* MainMenu.xib */; };
+		E2253DFB1E6DFFC90088B98B /* SecurityExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2253DFA1E6DFFC90088B98B /* SecurityExtensions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,8 @@
 		E2192F341E6D455300570BBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2192F371E6D455300570BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		E2192F391E6D455300570BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2253DF91E6DFFC90088B98B /* SecurityExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityExtensions.h; sourceTree = "<group>"; };
+		E2253DFA1E6DFFC90088B98B /* SecurityExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurityExtensions.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +58,8 @@
 			children = (
 				E2192F2E1E6D455300570BBA /* AppDelegate.h */,
 				E2192F2F1E6D455300570BBA /* AppDelegate.m */,
+				E2253DF91E6DFFC90088B98B /* SecurityExtensions.h */,
+				E2253DFA1E6DFFC90088B98B /* SecurityExtensions.m */,
 				E2192F341E6D455300570BBA /* Assets.xcassets */,
 				E2192F361E6D455300570BBA /* MainMenu.xib */,
 				E2192F391E6D455300570BBA /* Info.plist */,
@@ -144,6 +149,7 @@
 			files = (
 				E2192F331E6D455300570BBA /* main.m in Sources */,
 				E2192F301E6D455300570BBA /* AppDelegate.m in Sources */,
+				E2253DFB1E6DFFC90088B98B /* SecurityExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +299,7 @@
 				E2192F3E1E6D455300570BBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
